@@ -527,3 +527,49 @@ footer {
   }
 }
 
+.error {
+  font-size: 0.5rem;
+  color: red;
+}
+
+.bground2 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(26, 39, 156, 0.4);
+}
+
+.bground2 .content {
+  height: 700px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  padding-top: 55%;
+  margin-top: 60px;
+}
+
+.btnCloseModal {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-top: 50%;
+  bottom: 2%;
+}
+
+.btConfirm {
+  background: #fe142f;
+  display: block;
+  border-radius: 7px;
+  font-size: 1rem;
+  padding: 12px 82px;
+  color: #fff;
+  cursor: pointer;
+  border: 0;
+}
